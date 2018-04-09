@@ -1,0 +1,161 @@
+
+
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('../fonts/ubuntu/Ubuntu-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
+}
+
+@font-face {
+  font-family: JosefinSans-Bold;
+  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
+}
+
+
+.htitle{
+	padding-top:5px;
+	font-family:'Quattrocento Sans', sans-serif;
+	text-shadow:2px 1px 50px #004A6E;
+}
+.htitle2{
+	font-family: 'Pacifico', cursive;
+	font-size:20px;
+	color:FF0042;
+	padding-bottom:10px;
+}
+.s1{
+	position:relative;
+	background:rgba(0,171,255,0.20);
+	width: 100%;
+}
+.f1{
+	background:#D2D9DE;
+	width: 100%;
+	margin:0px;
+	margin-top:5px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.srcbtn.input{
+	border:none;
+	line-height: 0;
+	overflow: visible;
+	white-space: nowrap;
+	
+}
+.clearfix{
+	display:block;
+  clear:both;
+  content:" ";
+}
+.bg-faded {
+  background-color: #C6E3F84D;
+}
+.table.bg-faded-table{
+	background: rgba(0, 171, 255, 0.15); 
+
+
+}
+.printableArea{
+	padding:5px;
+}
+form{
+	font-family: JosefinSans-Bold, sans-serif;
+	border-radius: 5px;
+    background-color: rgba(240,240,240);
+    padding: 20px;
+}
+center.bg-faded-form {
+	font-family:'Quattrocento Sans', sans-serif;
+  background: rgba(0, 171, 255, 0.09);
+  border: 2px solid #ccc;
+  border-radius:5px;
+}
+input[type=text], input[type=date], input[type=password], input[type=number], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=radio]{
+	width:15%;
+	padding:1px;
+	resize: vertical;
+}
+input[type=submit]{
+	
+	text-align: center;
+	font-size:22px;
+	padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
+input[type=submit]:hover{
+	background-color: rgba(255, 9, 64, 0.60);
+	color: rgba(12, 232, 153)
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+.col-75 {
+    float: left;
+    width: 72%;
+    margin-top: 6px;
+}
+.col-85{
+	float:left;
+	padding:20px;
+	width: 100%;
+	margin-top:6px;
+}
+.col-85:hover{
+	background-color: rgba(12, 232, 153, 0.45);
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+}
+nav{
+	position:relative;
+}
+.navbar .text-left{
+	text-align:left;
+}
+input{
+	width:35%;
+	text-align:left;
+	font-size: 20px;
+	margin-left:2px;
+}
+ 
